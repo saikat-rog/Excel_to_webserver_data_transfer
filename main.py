@@ -39,11 +39,11 @@ for index, row in excel_data.iterrows():
     field2.send_keys(Keys.CONTROL + "a")  # Select existing text if any
     field2.send_keys(Keys.DELETE)  # Clear existing text
     field2.send_keys(str(row['coulmn_name_that_would_be_transfared']))
-    .
-    .
-    .
-    .
-    # write the above same if any more text field you need.
+#   .
+#   .
+#   .
+#   .
+#   write the above same if any more text field you need.
 
     submit_button = driver.find_element(By.CLASS_NAME, "class_name_of_your_button")
     submit_button.click()
